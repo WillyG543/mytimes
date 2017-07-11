@@ -1,0 +1,27 @@
+.header{
+  font-family: verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.header h3 {
+  color: mediumaquamarine;
+}
+.header nav span{
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
