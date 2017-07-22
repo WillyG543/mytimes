@@ -36,7 +36,7 @@ header {
 .leftBox {
  border: solid 1px black;
  flex-flow: column wrap;
- width: 625px;
+ width: 630px;
  border-left: 15px;
  border-top: 25px;
  border-right: 25px;
@@ -47,26 +47,57 @@ header {
 
 #topLeftArticle {
 border: solid 2px black;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+border-image-repeat: stretch;
+height: 300px;
+font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+color: white;
+text-align: left;
 }
 
 #topLeftContent {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 #middleLeftContent {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 #middleLeftTitle {
 border: solid 2px black;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+height: 300px;
+text-align: center;
 }
 
 #bottomLeftContent {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 #bottomLeftTitle {
 border: solid 2px black;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+height: 300px;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
 }
 
 .middleBox {
@@ -75,20 +106,32 @@ flex-flow: column wrap;
 width:300px;
 position: relative;
 left: 650px;
-top: -520px;
+top: -1330px;
 z-index: 10;
 }
 
 #middleTopArticle {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 #middleCatTitle {
 border: solid 2px black;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+height:300px;
 }
 
 #middleBottom {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 .rightBox {
@@ -97,7 +140,7 @@ flex-flow: column wrap;
 width: 250px;
 position: relative;
 left: 980px;
-top: -1120px;
+top: -2325px;
 z-index: 10;
 }
 
@@ -107,6 +150,9 @@ border: solid 2px black;
 
 #middleRightContent {
 border: solid 2px black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 #rightBottom {
