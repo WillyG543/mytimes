@@ -5,7 +5,7 @@ header {
   font-weight: bold;
   position: fixed;
   z-index: 5;
-  overflow: hidden;
+  border-bottom: solid 1px black;
 }
 
 #topLogo {
@@ -34,7 +34,7 @@ header {
 }
 
 .leftBox {
- border: solid 1px black;
+
  flex-flow: column wrap;
  width: 630px;
  border-left: 15px;
@@ -46,7 +46,7 @@ header {
 }
 
 #topLeftArticle {
-border: solid 2px black;
+display: flex;
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 border-image-repeat: stretch;
 height: 300px;
@@ -55,44 +55,45 @@ font-weight: bold;
 font-size: 40px;
 color: white;
 text-align: left;
+justify-content: flex-end;
 }
 
 #topLeftContent {
-border: solid 2px black;
+display: flex;
 font-family: Georgia;
 font-size: 17px;
 color: black;
 }
 
 #middleLeftContent {
-border: solid 2px black;
+display: flex;
 font-family: Georgia;
 font-size: 17px;
 color: black;
 }
 
 #middleLeftTitle {
-border: solid 2px black;
+display: flex;
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
 color: white;
-height: 300px;
+height: 150px;
 text-align: center;
 }
 
 #bottomLeftContent {
-border: solid 2px black;
+display: flex;
 font-family: Georgia;
 font-size: 17px;
 color: black;
 }
 
 #bottomLeftTitle {
-border: solid 2px black;
+display: flex;
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-height: 300px;
+height: 150px;
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
@@ -101,24 +102,30 @@ text-align: center;
 }
 
 .middleBox {
-border: solid 2px black;
+
 flex-flow: column wrap;
 width:300px;
 position: relative;
 left: 650px;
-top: -1330px;
+top: -1080px;
 z-index: 10;
 }
 
+.hori1 {
+  flex-flow: column nowrap;
+  display: flex;
+
+}
+
 #middleTopArticle {
-border: solid 2px black;
+
 font-family: Georgia;
 font-size: 17px;
 color: black;
 }
 
 #middleCatTitle {
-border: solid 2px black;
+
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
@@ -128,33 +135,57 @@ height:300px;
 }
 
 #middleBottom {
-border: solid 2px black;
+
 font-family: Georgia;
 font-size: 17px;
 color: black;
 }
 
 .rightBox {
-border: solid 1px black;
+
 flex-flow: column wrap;
 width: 250px;
 position: relative;
 left: 980px;
-top: -2325px;
+top: -2075px;
 z-index: 10;
 }
 
 #rightLogo {
-border: solid 2px black;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
 }
 
 #middleRightContent {
-border: solid 2px black;
-font-family: Georgia;
-font-size: 17px;
-color: black;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
 }
 
-#rightBottom {
-border: solid 2px black;
+.list {
+display: flex;
+margin: 0;
+border: 1px 0px;
+}
+
+footer {
+  position:relative;
+  top: -1000
+  left: 250
+}
+
+footer p {
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px
+}
+
+footer span, a {
+  font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
 }
